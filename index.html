@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
  
-  <title>code and solder</title>
+  <title>codeNsolder</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -82,7 +82,7 @@
   .carousel-caption h3 {
     color: #fff !important;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 300px) {
     .carousel-caption {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
@@ -190,6 +190,177 @@
   textarea {
     resize: none;
   }
+
+
+  h1, h2, h3, h4, h5, h6 {
+}
+section {
+    padding: 60px 0;
+    min-height: 100vh;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-footer{
+  position: relative;
+  background: #1e2129;
+}
+
+.footer-content{
+  position: relative;
+  padding: 85px 0px 80px 0px;
+}
+.footer-content:before{
+  position: absolute;
+  content: '';
+  background: url(https://i.ibb.co/jyRLrBZ/world-map.png);
+  width: 744px;
+  height: 365px;
+  top: 50px;
+  right: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: float-bob;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: float-bob;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: float-bob;
+  -moz-animation-duration: 30s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float-bob;
+  -ms-animation-duration: 30s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float-bob;
+  -o-animation-duration: 30s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+.footer-content .logo-widget{
+  position: relative;
+  margin-top: -5px;
+}
+.footer-content .logo-widget .footer-social li{
+  position: relative;
+  display: inline-block;
+  margin-right: 9px;
+}
+.footer-content .logo-widget .footer-social li:last-child{
+  margin-right: 0px;
+}
+.footer-content .logo-widget .footer-social li a{
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  background: #2e3138;
+  color: #9ea0a9;
+  text-align: center;
+  border-radius: 50%;
+}
+.footer-content .logo-widget .footer-social li a:hover{
+  color: #ffffff;
+  background: #ff5e14;
+}
+.footer-content .logo-widget .logo-box{
+  margin-bottom: 25px;
+}
+.footer-content .logo-widget .text p{
+  color: #9ea0a9;
+  margin-bottom: 32px;
+}
+.footer-content .footer-title{
+  position: relative;
+  font-size: 24px;
+  line-height: 35px;
+  font-family: 'Playfair Display', serif;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.footer-content .service-widget .list li{
+  display: block;
+  margin-bottom: 12px;
+}
+.footer-content .service-widget .list li a{
+  position: relative;
+  display: inline-block;
+  color: #9ea0a9;
+}
+.footer-content .service-widget .list li a:hover{
+  color: #ff5e14;
+}
+.footer-content .contact-widget p{
+  color: #9ea0a9;
+  margin-bottom: 15px;
+}
+.footer-content .contact-widget{
+  margin-left: 90px;
+}
+.footer-content .contact-widget .footer-title{
+  margin-bottom: 29px;
+}
+
+/** footer-bottom **/
+
+.footer-bottom{
+  position: relative;
+  background: #13151a;
+  padding: 25px 0px 22px 0px;
+}
+.footer-bottom .copyright,
+.footer-bottom .copyright a,
+.footer-bottom .footer-nav li a{
+  position: relative;
+  color: #9ea0a9;
+}
+.footer-bottom .copyright a:hover,
+.footer-bottom .footer-nav li a:hover{
+  color: #ff5e14;
+}
+.footer-bottom .footer-nav{
+  position: relative;
+  text-align: right;
+}
+.footer-bottom .footer-nav li{
+  position: relative;
+  display: inline-block;
+  margin-left: 29px;
+}
+.footer-bottom .footer-nav li:first-child{
+  margin-left: 0px;
+}
+.footer-bottom .footer-nav li:before{
+  position: absolute;
+  content: '';
+  background: #9ea0a9;
+  width: 1px;
+  height: 14px;
+  top: 7px;
+  left: -18px;
+}
+.footer-bottom .footer-nav li:first-child:before{
+  display: none;
+}
+.logo-box img {
+    max-width: 220px;
+}
+
+
+
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -203,7 +374,7 @@
                 
                 </video>-->
 
-                <img src="back.jpg">
+                <img src="back.png">
             </div>
 
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -214,7 +385,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage"><!--<img width="30px"src="logo.jpg">-->code&solder</a>
+      <a class="navbar-brand" href="#myPage"><!--<img width="30px"src="logo.jpg">-->codeNsolder</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -226,9 +397,9 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">kuch bhi</a></li>
-            <li><a href="#">kuch or </a></li>
-            <li><a href="#">pata nahi kya </a></li> 
+            <li><a href="#">.</a></li>
+            <li><a href="#">. </a></li>
+            <li><a href="#">. </a></li> 
           </ul>
         </li>
         <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
@@ -248,26 +419,26 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="wall.png" alt="New York" width="1200" height="700">
+        <img src="pics/1.png" alt="New York" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>abc</h3>
-          <p> lorem ipsum.</p>
+        <!----  <h3>abc</h3>
+          <p> lorem ipsum.</p>-->
         </div>      
       </div>
 
       <div class="item">
-        <img src="wall.png" alt="Chicago" width="1200" height="700">
+        <img src="pics/2.png" alt="Chicago" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>delhi</h3>
-          <p>hi hi haas deleye rinkiya ke papa </p>
+         <!----  <h3>abc</h3>
+          <p> lorem ipsum.</p>-->
         </div>      
       </div>
     
       <div class="item">
-        <img src="wall.png" alt="Los Angeles" width="1200" height="700">
+        <img src="pics/3.png" alt="Los Angeles" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>mussoorie </h3>
-          <p>maja hi aa gya udhr</p>
+          <!----  <h3>abc</h3>
+          <p> lorem ipsum.</p>-->
         </div>      
       </div>
     </div>
@@ -299,6 +470,23 @@
   <br>
   
 </div>
+<br>
+<br>
+
+<div id="band" class="container rand ">
+
+  <br>
+          <button class="bn">Consultancy</button>
+    <p><em></em></p>
+   <p>
+
+    1. Drone Training program : Helping build future drone pilots for different domains ranging from Aerial cinematography, sports-racing, Content creation, surveying-mapping, first person flying using our in house elite simulators for RC fixed wing and multi rotors drones.
+    <br><br>
+    2. Faculty Development Program(FDP) : A special one day program for faculty members to introduce them with latest education technologies(EDTECH) that they can use in their classes to make it more interesting and interactive 
+    <br><br>
+    3. Career counselling : Exclusively for prospective and future engineering students helping them decide their career paths over 1-1 counselling .
+    </p>
+  </div>
 
 
 <br>
@@ -319,48 +507,48 @@
         <div class="thumbnail">
           <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fdownloads.oppserver.net%2Flinux%2Ftux%2Ftux6.png&f=1" alt="" width="300" height="200">
           <p><strong>LINUX</strong></p>
-          <p>Friday 27 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          
+          <button class="btn" data-toggle="modal" data-target="#myModal">View</button>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fdownloads.oppserver.net%2Flinux%2Ftux%2Ftux6.png&f=1" alt="" width="300" height="200">
-          <p><strong>LINUX</strong></p>
-          <p>Saturday 28 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.shareicon.net%2Fdownload%2F2016%2F09%2F09%2F827356_transportation_512x512.png&f=1" alt="" width="300" height="200">
+          <p><strong>Drones</strong></p>
+          
+          <button class="btn" data-toggle="modal" data-target="#myModal">View</button>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fdownloads.oppserver.net%2Flinux%2Ftux%2Ftux6.png&f=1" alt="" width="300" height="200">
-          <p><strong>LINUX</strong></p>
-          <p>Sunday 29 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.9SlJHYIImfsQfg0RwZnQYQAAAA%26pid%3D15.1&f=1" alt="" width="300" height="200">
+          <p><strong>IOT</strong></p>
+         
+          <button class="btn" data-toggle="modal" data-target="#myModal">View</button>
         </div>
       </div>
       <div class="col-sm-4">
             <div class="thumbnail">
-              <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fdownloads.oppserver.net%2Flinux%2Ftux%2Ftux6.png&f=1" alt="" width="300" height="200">
-              <p><strong>LINUX</strong></p>
-              <p>Friday 27 November 2015</p>
-              <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+              <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fd30y9cdsu7xlg0.cloudfront.net%2Fpng%2F257088-200.png&f=1" alt="" width="300" height="200">
+              <p><strong>Microcontrollers</strong></p>
+              
+              <button class="btn" data-toggle="modal" data-target="#myModal">View</button>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="thumbnail">
-              <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fdownloads.oppserver.net%2Flinux%2Ftux%2Ftux6.png&f=1" alt="" width="300" height="200">
-              <p><strong>LINUX</strong></p>
-              <p>Saturday 28 November 2015</p>
-              <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+              <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2Foriginals%2F6e%2Fde%2Fa8%2F6edea84dffc69d2c190c427be484143c.png&f=1" alt="" width="300" height="200">
+              <p><strong>RaspberryPi</strong></p>
+              
+              <button class="btn" data-toggle="modal" data-target="#myModal">View</button>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="thumbnail">
-              <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fdownloads.oppserver.net%2Flinux%2Ftux%2Ftux6.png&f=1" alt="" width="300" height="200">
-              <p><strong>LINUX</strong></p>
-              <p>Sunday 29 November 2015</p>
-              <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+              <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Flogos-4%2F24%2FOpen-Source_Iniciative-256.png&f=1" alt="" width="300" height="200">
+              <p><strong>FOSS</strong></p>
+              
+              <button class="btn" data-toggle="modal" data-target="#myModal">View</button>
             </div>
           </div>
     </div>
@@ -389,12 +577,13 @@
     </div>
   </div>
 </div>
-
+<br>
+    <br>
 
 <div id="contact" class="rand container">
     <br>
     <br>
-        <button class="bn">ABOUT</button>
+        <button class="bn">CONTACT</button>
  
   <p class="text-center"><em>kuch vhi likh do</em></p>
 
@@ -403,7 +592,7 @@
       <p>Help ? Drop a note.</p>
       <p><span class="glyphicon glyphicon-map-marker"></span>Delhi , India</p>
       <p><span class="glyphicon glyphicon-phone"></span>Phone: 9865324512</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: codeandsolder@gmail.com</p>
     </div>
     <div class="col-md-8">
       <div class="row">
@@ -429,17 +618,78 @@
     </div>
   </div>
 </div>
+<br>
+    <br>
+<!-- Image of location/map 
+<img src="map.jpg" class="img-responsive" style="width:100%">-->
 
-<!-- Image of location/map -->
-<img src="map.jpg" class="img-responsive" style="width:100%">
 
-<!-- Footer -->
-<footer class="text-center">
-  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a><br><br>
-  <p>copy right  <a href="" data-toggle="tooltip" title="Visit w3schools">www.codeandsolder.com</a></p> 
+
+
+
+
+
+<footer class="main-footer">
+  <div class="container">
+      <div class="footer-content">
+          <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                  <div class="logo-widget footer-widget">
+                      <figure class="logo-box"><a href="#"><img src="logo.jpg" alt=""></a></figure>
+                      <div class="text">
+                        <p>We believe in today’s world the best way to learn is by working together helping each other grow. Our workshops provides an environment to learn by collaborating in a team, making future engineers ready for big industrial projects and having fun while learning and making projects that matters.</p>
+                        </div>
+                      <ul class="footer-social">
+                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                          <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 offset-lg-2 footer-column">
+                  <div class="service-widget footer-widget">
+                      <div class="footer-title">Services</div>
+                      <ul class="list">
+                          <li><a href="#">LINUX</a></li>
+                          <li><a href="#">DRONES</a></li>
+                          <li><a href="#">MICROCONTROLLERS</a></li>
+                          <li><a href="#">RaspberryPi</a></li>
+                          <li><a href="#">FOSS</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 footer-widget">
+                  <div class="contact-widget footer-widget">
+                      <div class="footer-title">Contacts</div>
+                      <div class="text">
+                          <p>New Delhi</p>
+                          <p>9865328754</p>
+                          <p>codeandsolder@gmail.com</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </footer>
+<!-- main-footer end -->
+<div class="footer-bottom">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 column">
+              <div class="copyright"><a href="#"></a> &copy; 2019 All Right Reserved</div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 column">
+              <ul class="footer-nav">
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
+
 
 
 
